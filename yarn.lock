@@ -2,6 +2,16 @@
 # yarn lockfile v1
 
 
+"@huse/derived-state@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@huse/derived-state/-/derived-state-1.0.1.tgz#89b33caa3281923c6afe1ee702a852c427bdf233"
+  integrity sha512-wxx0/JK+/KvHQuZ/yWSRANrIjeJrhmUcjVLDlO++EpadmFEUzZq2Pd/mw/KUly1MrjEc3qhzoEznTaCx7d8RRw==
+
+"@huse/update@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@huse/update/-/update-1.0.1.tgz#3f51d0fd3008a0c6625a364bae4c71fae6c31a46"
+  integrity sha512-0+zWQfqUz+AKZc00ds4XIg3WxIsyHScKztOksNvBL/AqrodeXIC6egC9L0JOHrxwdDkbeCI6Rran1rLGX/M+Xg==
+
 "@types/events@*":
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/@types/events/download/@types/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
@@ -2483,9 +2493,9 @@ locate-path@^3.0.0:
     path-exists "^3.0.0"
 
 lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.3, lodash@^4.17.5:
-  version "4.17.15"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^2.1.0:
   version "2.2.0"
@@ -3362,7 +3372,7 @@ promise-inflight@^1.0.1:
   resolved "https://registry.npm.taobao.org/promise-inflight/download/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
-prop-types@^15.6.1, prop-types@^15.6.2:
+prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.npm.taobao.org/prop-types/download/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
@@ -3529,6 +3539,17 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.npm.taobao.org/react-lifecycles-compat/download/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha1-TxonOv38jzSIqMUWv9p4+HI1I2I=
+
+react-suspense-boundary@:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/react-suspense-boundary/-/react-suspense-boundary-1.1.2.tgz#9fdc326fd0c22db74b6928fc07703c88bca22bde"
+  integrity sha512-fvhZpHTBtbYsWIWGQQB8elboZ0orEPaxfFQDHpRrYu6Rkmv6QUYwTlemYEivLwGiFg5r4SKkNRs2AX3jDtC0Ig==
+  dependencies:
+    "@huse/derived-state" "^1.0.1"
+    "@huse/update" "^1.0.1"
+    fast-json-stable-stringify "^2.0.0"
+    prop-types "^15.7.2"
+    tiny-invariant "^1.1.0"
 
 react@^16.11.0:
   version "16.11.0"
@@ -4225,6 +4246,11 @@ timers-browserify@^2.0.4:
   integrity sha1-gAsfPu4nLlvFPuRloE0OgEwxIR8=
   dependencies:
     setimmediate "^1.0.4"
+
+tiny-invariant@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.1.0.tgz#634c5f8efdc27714b7f386c35e6760991d230875"
+  integrity sha512-ytxQvrb1cPc9WBEI/HSeYYoGD0kWnGEOR8RY6KomWLBVhqz0RgTwVO9dLrGz7dC+nN9llyI7OKAgRq8Vq4ZBSw==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
